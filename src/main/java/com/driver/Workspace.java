@@ -6,8 +6,9 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.PriorityQueue;
 
-public class Workspace extends Gmail {
+public class Workspace extends Gmail{
 
     private ArrayList<Meeting> calendar; // Stores all the meetings
 
