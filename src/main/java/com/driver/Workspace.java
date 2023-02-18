@@ -29,7 +29,7 @@ import java.util.Collections;
 //    }
 //}
 
-class Workspace extends Gmail {
+public class Workspace extends Gmail{ {
     private List<Meeting> meetings;
 
     public Workspace(String name, int inboxCapacity) {
